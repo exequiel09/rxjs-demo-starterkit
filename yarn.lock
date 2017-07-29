@@ -2,12 +2,6 @@
 # yarn lockfile v1
 
 
-"@reactivex/rxjs@^5.4.2":
-  version "5.4.2"
-  resolved "https://registry.yarnpkg.com/@reactivex/rxjs/-/rxjs-5.4.2.tgz#ab530dbbdab71071369828ef11c8d7ae558d5116"
-  dependencies:
-    symbol-observable "^1.0.1"
-
 abbrev@1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.0.tgz#d0554c2256636e2f56e7c2e5ad183f859428d81f"
@@ -2724,6 +2718,12 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
   dependencies:
     hash-base "^2.0.0"
     inherits "^2.0.1"
+
+rxjs@^5.4.2:
+  version "5.4.2"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-5.4.2.tgz#2a3236fcbf03df57bae06fd6972fd99e5c08fcf7"
+  dependencies:
+    symbol-observable "^1.0.1"
 
 safe-buffer@5.1.1, safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.1"
