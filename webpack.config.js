@@ -7,9 +7,10 @@ const dist = path.join(__dirname, 'dist');
 module.exports = {
     context: src,
 
-    entry: {
-        app: './main.js',
-    },
+    entry: [
+        "babel-polyfill",
+        "main.js"
+    ],
 
     output: {
         path: dist,
