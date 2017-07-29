@@ -4,7 +4,7 @@
   "license": "MIT",
   "author": "Exequiel Ceasar Navarrete <exequiel.navarrete09@gmail.com>",
   "scripts": {
-    "start": "echo \"No start script yet\""
+    "start": "./node_modules/.bin/webpack-dev-server --config ./webpack.config.dev.js"
   },
   "private": true,
   "dependencies": {
