@@ -1,7 +1,6 @@
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/observable/interval';
+import Rx from 'rxjs/Rx';
 
-Observable.interval(1000)
+Rx.Observable.interval(1000)
     .take(4)
     .subscribe(data => console.log(data))
     ;
